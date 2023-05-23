@@ -1,0 +1,74 @@
+body{
+    max-width: 1064px;
+    width: 100%;
+    margin: auto;
+    background-image: url(img/фон.png) ;
+    height: 100%;
+    color: #fff;
+}
+
+
+.header{ 
+    display:flex; 
+    justify-content: space-around; 
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+} 
+.menu-list{ 
+    display: flex; 
+    list-style-type: none ; 
+} 
+.menu-item a { 
+     text-decoration:none ;
+    color: rgb(65, 65, 65); 
+} 
+.menu-item { 
+    margin-right: 15px;  
+    font-weight: bold;
+   line-height: 1px; 
+   margin-top: 9px;
+}
+
+.logo{
+    margin-top: 24px; 
+ 
+}
+.poisk{
+    margin-top: 24px
+}
+.button-new{
+  
+    all: unset;
+    padding: 22px 45px;
+    background: #62B545;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: 500;
+font-size: 25px;
+line-height: 19px;
+
+}
+.new{
+    display: flex;
+    list-style-type: none;
+    margin-top: 40px;
+   
+}
+.button-film{
+  
+    all: unset;
+    padding: 22px 45px;
+    background: #62B545;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: 500;
+font-size: 25px;
+line-height: 19px;
+margin-top: 30px;
+
+}
+.new2{
+    display: flex;
+    list-style-type: none;
+    margin-top: 40px;
+}
